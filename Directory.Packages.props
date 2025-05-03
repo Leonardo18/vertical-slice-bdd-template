@@ -1,0 +1,23 @@
+<Project>
+	<ItemGroup>
+		<!-- ASP.NET Core -->
+		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+
+		<!-- Documentação / Swagger -->
+		<PackageVersion Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.1.1" />
+		<PackageVersion Include="Swashbuckle.AspNetCore.ReDoc" Version="8.1.1" />
+		<PackageVersion Include="Scalar.AspNetCore" Version="2.2.5" />
+
+		<!-- Wolverine -->
+		<PackageVersion Include="WolverineFx.Http" Version="3.13.0" />
+
+		<!-- Testes e BDD -->
+		<PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="9.0.4" />
+		<PackageVersion Include="Shouldly" Version="4.3.0" />
+		<PackageVersion Include="Xunit" Version="2.9.3" />
+		<PackageVersion Include="xunit.runner.visualstudio" Version="3.0.2" />
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+		<PackageVersion Include="Reqnroll" Version="2.4.1" />
+		<PackageVersion Include="Reqnroll.xUnit" Version="2.4.1" />
+	</ItemGroup>
+</Project>

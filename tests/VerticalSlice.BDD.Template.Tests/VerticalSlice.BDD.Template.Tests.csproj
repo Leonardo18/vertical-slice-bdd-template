@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+		<PackageReference Include="Shouldly" />
+		<PackageReference Include="Xunit" />
+		<PackageReference Include="xunit.runner.visualstudio" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" />
+		<PackageReference Include="Reqnroll" />
+		<PackageReference Include="Reqnroll.xUnit" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\src\VerticalSlice.BDD.Template\VerticalSlice.BDD.Template.csproj" />
+	</ItemGroup>
+
+</Project>

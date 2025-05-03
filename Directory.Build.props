@@ -1,0 +1,10 @@
+<Project>
+	<PropertyGroup>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AnalysisMode>AllEnabledByDefault</AnalysisMode>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+</Project>

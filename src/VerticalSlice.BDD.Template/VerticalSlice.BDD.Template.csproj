@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<AssemblyName>VerticalSlice.BDD.Template</AssemblyName>
+    	<RootNamespace>VerticalSlice.BDD.Template</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+		<PackageReference Include="Scalar.AspNetCore" />
+		<PackageReference Include="Swashbuckle.AspNetCore.ReDoc" />
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" />
+		<PackageReference Include="WolverineFx.Http" />
+	</ItemGroup>
+
+</Project>
